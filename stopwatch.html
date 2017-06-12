@@ -1,0 +1,62 @@
+<!-- 
+
+  ~~~~~~~~~~~~~~~~
+  INSTRUCTIONS
+  ~~~~~~~~~~~~~~~~
+
+  Open stopwatch.js and follow the instructions in the file.
+  You will not not need to edit the HTML file we give you.
+  Use jQuery and the timing events you learned today to create a stopwatch with Start, Stop and Reset buttons.
+  Bonus: Add a lap timer.
+  Bonus: Use CSS to style the timer
+
+ -->
+
+<!-- Students: Our work lies in the js file. -->
+
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <title>Stopwatch</title>
+
+    <!-- Our CSS style sheet -->
+    <link rel="stylesheet" href="style.css">
+    
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <div id="wrapper">
+
+    <h2>JAVASCRIPT STOPWATCH</h2>
+
+      <div id="display">00:00</div>
+
+      <!-- Div containing our stopwatch controls -->
+      <div id="buttons">
+        <button id="start">Start</button>
+        <button id="stop">Stop</button>
+        <button id="reset">Reset</button>
+        <button id="lap">Lap</button>
+      </div>
+
+      <div id="laps"></div>
+
+    </div>
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+
+    <!-- Script -->
+    <script type="text/javascript" src="stopwatch.js"></script>
+
+  </body>
+
+</html>
+
